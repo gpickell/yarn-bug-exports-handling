@@ -1,0 +1,7 @@
+{
+  "name": "@test/to",
+  "exports": {
+    "./*/index": "./src/*.mjs",
+    "./*": "./src/*.mjs"
+  }
+}

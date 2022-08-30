@@ -1,0 +1,9 @@
+{
+  "packageManager": "yarn@3.2.3",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node packages/from/src/test.mjs"
+  }
+}
